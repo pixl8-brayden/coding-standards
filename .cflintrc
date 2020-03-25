@@ -1,0 +1,48 @@
+{
+	"rule": [],
+	"includes": [],
+	"excludes": [
+		  { "code": "VAR_TOO_WORDY"                      }
+		, { "code": "VAR_TOO_SHORT"                      }
+		, { "code": "VAR_TOO_LONG"                       }
+		, { "code": "METHOD_TOO_WORDY"                   }
+		, { "code": "METHOD_TOO_SHORT"                   }
+		, { "code": "METHOD_TOO_LONG"                    }
+		, { "code": "ARGUMENT_TOO_WORDY"                 }
+		, { "code": "ARGUMENT_TOO_SHORT"                 }
+		, { "code": "ARGUMENT_TOO_LONG"                  }
+		, { "code": "COMPONENT_TOO_WORDY"                }
+		, { "code": "COMPONENT_TOO_SHORT"                }
+		, { "code": "COMPONENT_TOO_LONG"                 }
+		, { "code": "VAR_IS_TEMPORARY"                   }
+		, { "code": "UNUSED_METHOD_ARGUMENT"             }
+		, { "code": "STRUCT_ARRAY_NOTATION"              }
+		, { "code": "UNQUOTED_STRUCT_KEY"                }
+		, { "code": "FUNCTION_TYPE_ANY"                  }
+		, { "code": "FUNCTION_HINT_MISSING"              }
+		, { "code": "COMPONENT_HINT_MISSING"             }
+		, { "code": "ARG_HINT_MISSING_SCRIPT"            }
+		, { "code": "ARG_TYPE_MISSING"                   }
+		, { "code": "ARG_DEFAULT_MISSING"                }
+		, { "code": "LOCAL_LITERAL_VALUE_USED_TOO_OFTEN" }
+		, { "code": "VAR_INVALID_NAME"                   }
+		, { "code": "FUNCTION_TYPE_MISSING"              }
+		, { "code": "FUNCTION_TOO_COMPLEX"               }
+		, { "code": "COMPONENT_INVALID_NAME"             }
+		, { "code": "COMPONENT_IS_TEMPORARY"             }
+		, { "code": "QUERYNEW_DATATYPE"                  }
+		, { "code": "AVOID_USING_ISDATE"                 }
+		, { "code": "EXCESSIVE_COMPONENT_LENGTH"         }
+		, { "code": "UNUSED_LOCAL_VARIABLE"              }
+		, { "code": "METHOD_IS_TEMPORARY"                }
+		, { "code": "ARGUMENT_IS_TEMPORARY"              }
+		, { "code": "EXCESSIVE_FUNCTION_LENGTH"          }
+		, { "code": "EXPLICIT_BOOLEAN_CHECK"             }
+		, { "code": "ARG_TYPE_ANY"                       }
+		, { "code": "ARGUMENT_INVALID_NAME"              }
+	],
+	"inheritParent": false,
+	"parameters": {
+		"TooManyFunctionsChecker.maximum" : 25
+	}
+}
